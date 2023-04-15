@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4c0f863-b46c-48a3-89b3-fa5c6d26668d">
+  <name>YA_yandex</name>
+  <synonym>
+    <key>ru</key>
+    <value>Yandex</value>
+  </synonym>
+  <rootURL>yandex</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="830bde01-06d4-4a8a-9f60-d68fd013488d">
+    <name>alice</name>
+    <synonym>
+      <key>ru</key>
+      <value>Alice</value>
+    </synonym>
+    <template>/alice</template>
+    <methods uuid="85bcc7f7-9e11-4105-a77c-2ae893b46287">
+      <name>ОбработкаЗапроса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Обработка запроса</value>
+      </synonym>
+      <httpMethod>Any</httpMethod>
+      <handler>aliceОбработкаЗапроса</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="e736ab4d-4089-4aa9-966c-427836393b2e">
+    <name>Ping</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ping</value>
+    </synonym>
+    <template>/ping</template>
+    <methods uuid="d38bc68f-f4e4-4f71-9051-4f7531152ffc">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>PingGET</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

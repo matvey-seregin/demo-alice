@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c4c40df-3305-444e-b5d2-8d4a877e475d">
+  <name>Я_ЯндексКарты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Яндекс карты</value>
+  </synonym>
+</mdclass:CommonPicture>

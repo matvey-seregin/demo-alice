@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a47adce4-654f-48d2-a584-33f46e955aba">
+  <producedTypes>
+    <managerType typeId="40d5dfc0-9de0-4f2c-8e1f-eafc1127e8d1" valueTypeId="ffd694be-03aa-43db-aaa4-03e262e0ab19"/>
+    <valueManagerType typeId="25295c93-4171-4a9f-8f43-862818f7aa94" valueTypeId="bbc9d35b-c5df-45e9-b9f4-f5be27c4e057"/>
+    <valueKeyType typeId="2454ac20-6621-4702-a6ce-904c69fd2706" valueTypeId="86dcc0a0-e3b5-40a8-a573-670b1745ed9c"/>
+  </producedTypes>
+  <name>АссистентТокенЧатГПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ассистент токен чат ГПТ</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>250</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

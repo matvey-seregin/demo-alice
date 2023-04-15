@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6316f4b-2459-41d0-9536-55c5b48be6d8">
+  <name>АссистентИнтеграцияСOpenAIПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с OpenAI повт. ис</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

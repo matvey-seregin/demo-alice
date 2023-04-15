@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fe24105c-53fc-4975-9f1b-b01cde5c9e7d">
+  <name>ЯндексАлиса</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="dd84a842-6770-43a2-9bad-1d55988b6ab9"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="af148378-bf75-401d-9edb-dcd0df7f59df"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="adb7b227-98e5-42ee-b5c3-e0166b55a5ab"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="b0387269-7151-44cd-a81f-2965a72647bd"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="1e81dad5-3dd2-4d7b-b4d0-3e50687a905e"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="6f1b8caa-c2df-4415-bfb0-4926a75b0126"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="fc901593-10ea-47e7-946a-120158374800"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>Я_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.Я_ОбщиеПрава</defaultRoles>
+  <languages uuid="48a6b2c0-4092-42e9-b6eb-cb58ed717aa9">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension"/>
+  </languages>
+  <subsystems>Subsystem.YA_Алиса</subsystems>
+  <commonPictures>CommonPicture.Я_ЯндексКарты</commonPictures>
+  <roles>Role.Я_ОбщиеПрава</roles>
+  <commonModules>CommonModule.Я_АлисаПереопределяемый</commonModules>
+  <commonModules>CommonModule.Я_Алиса</commonModules>
+  <commonModules>CommonModule.Я_ОбработкаJSON</commonModules>
+  <commonModules>CommonModule.Я_ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.АссистентИнтеграцияСOpenAI</commonModules>
+  <commonModules>CommonModule.АссистентИнтеграцияСOpenAIВызовСервера</commonModules>
+  <commonModules>CommonModule.АссистентИнтеграцияСOpenAIКлиент</commonModules>
+  <commonModules>CommonModule.АссистентИнтеграцияСOpenAIПовтИсп</commonModules>
+  <httpServices>HTTPService.YA_yandex</httpServices>
+  <constants>Constant.Я_ТокенТелеграмБота</constants>
+  <constants>Constant.Я_ИдентификаторЧата</constants>
+  <constants>Constant.АссистентТокенЧатГПТ</constants>
+  <documents>Document.YA_Логи</documents>
+</mdclass:Configuration>
